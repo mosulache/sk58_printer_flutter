@@ -1,22 +1,26 @@
-name: sk58_printer # Asigură-te că numele proiectului e corect aici
-description: A Flutter application to print labels on Sinmark SK58.
-
-# Prevent accidental publishing to pub.dev.
+name: sk58
+description: "Sinmark SK58 Printer App"
 publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0' # Adăugăm constrângerea SDK
-  flutter: ">=1.17.0"
+  sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  universal_ble: ^0.17.0
+  permission_handler: ^11.2.0
+  qr_flutter: ^4.1.0
+  esc_pos_utils_plus: ^2.0.2
+  image: ^4.1.3
+  cupertino_icons: ^1.0.2
 
-  # Adăugat pentru aplicația de printare
-  flutter_blue_plus: ^1.31.18 # Sau ultima versiune stabilă
-  qr_flutter: ^4.1.0       # Sau ultima versiune stabilă
-  esc_pos_utils_plus: ^2.0.4 # Versiune compatibilă sugerată
-  image: ^4.0.17           # Sau ultima versiune stabilă
-  permission_handler: ^11.0.0 # Sau ultima versiune stabilă 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true 

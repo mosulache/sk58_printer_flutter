@@ -1,6 +1,7 @@
 # SK58 Printer Flutter App
 
 A cross-platform Flutter application for printing QR code labels and custom text on Sinmark SK58 (or compatible) Bluetooth thermal printers.
+This is a sample app.
 
 ## Features
 
@@ -26,7 +27,7 @@ A cross-platform Flutter application for printing QR code labels and custom text
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/sk58-printer-flutter.git
+   git clone https://github.com/mosulache/sk58-printer-flutter.git
    cd sk58-printer-flutter
    ```
 2. Install dependencies:
@@ -62,8 +63,7 @@ A cross-platform Flutter application for printing QR code labels and custom text
 - General: Printer should be powered on and not connected to other devices
 
 ## License
-MIT License
-
+TBD
 ---
 
 *Built with Flutter and attitude. Issues? Open one on GitHub, let's solve it together!*
