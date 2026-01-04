@@ -63,7 +63,30 @@ This is a sample app.
 - General: Printer should be powered on and not connected to other devices
 
 ## License
-TBD
+
+Acest proiect este un sample app și nu are o licență specifică definită încă.
+
+### Licențe ale dependențelor
+
+Această aplicație folosește următoarele pachete open-source și respectă licențele acestora:
+
+- **universal_ble** (^1.0.0) - [BSD-3-Clause License](https://github.com/Navideck/universal_ble/blob/main/LICENSE)
+  - Plugin cross-platform pentru Bluetooth Low Energy (BLE) pe Android, iOS, macOS, Windows, Linux și Web
+  
+- **permission_handler** (^12.0.1) - [MIT License](https://pub.dev/packages/permission_handler/license)
+  - Gestionarea permisiunilor runtime pentru diverse platforme
+  
+- **qr_flutter** (^4.1.0) - [BSD-3-Clause License](https://pub.dev/packages/qr_flutter/license)
+  - Generare și afișare de coduri QR în Flutter
+  
+- **esc_pos_utils_plus** (^2.0.2) - [BSD-3-Clause License](https://pub.dev/packages/esc_pos_utils_plus/license)
+  - Utilitare pentru generarea comenzilor ESC/POS pentru imprimante termice
+  
+- **image** (^4.1.3) - [MIT License](https://pub.dev/packages/image/license)
+  - Bibliotecă Dart pentru manipularea imaginilor
+
+Pentru detalii complete despre licențe, consultă paginile respective ale pachetelor pe [pub.dev](https://pub.dev).
+
 ---
 
 *Built with Flutter and attitude. Issues? Open one on GitHub, let's solve it together!*
